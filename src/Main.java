@@ -1,6 +1,5 @@
 import org.trzcinska.Suma;
-/*Na koniec dodaj ćwiczenia do repozytorium w Githubie.
-    */
+
 
 public class Main {
     public static void main(String[] args) {
