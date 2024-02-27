@@ -21,8 +21,8 @@ public class Test1 {
 
     @Test
     public void test_maxValue() {
-        int[] nums = new int[]{Integer.MAX_VALUE, 3, 5};
-        assertEquals(Integer.MAX_VALUE + 8, testObject.sumArray(nums));
+        int[] nums = new int[] {Integer.MAX_VALUE, 3, 5};
+        assertEquals((Long.valueOf((long)Integer.MAX_VALUE + 8L)).intValue(), testObject.sumArray(nums));
     }
 
     @Test
